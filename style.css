@@ -1,0 +1,96 @@
+
+body{
+    width: 1700px;
+    margin: 50px 50px;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        /* Styles */
+        }
+}
+#wholepage{
+    background-color: rgb(241, 241, 241);
+}
+nav{
+    display: flex;
+}
+.navbar{
+    margin: 0% 3%;
+    color: black;
+}
+#page1{
+    display: flex;
+}
+#pg1part1{
+    margin: 20% 13%;
+    text-align: center;
+}
+#button1{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 100%;
+}
+.button2{
+    border: none;
+}
+#buttons3{
+    align-items: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.button3{
+    margin: 0% 2%;
+    border: none;
+    align-items: left;
+}
+#page2{
+    display: flex;
+}
+#part2pt1{
+    display: flex;
+}
+#part2pt2{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+#page3{
+    display: flex;
+}
+#pg3part1{
+    margin: 15% 13%;
+    text-align: center;
+}
+#button4{
+    border: none;
+    text-decoration: underline;
+    font-size: 150%;
+}
+#buttons5{
+    align-items: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+#page4{
+    display: flex;
+}
+#part1pt1{
+    display: flex;
+}
+#part1pt2{
+    display: flex;
+}
+#lastpage{
+    display: flex;
+}
+.about{
+    margin-left: 10%;
+}
+input{
+    border: none;
+}
+
+    
