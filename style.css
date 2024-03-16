@@ -2,9 +2,6 @@
 body{
     width: 1700px;
     margin: 50px 50px;
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        /* Styles */
-        }
 }
 #wholepage{
     background-color: rgb(241, 241, 241);
@@ -93,4 +90,61 @@ input{
     border: none;
 }
 
+@media only screen and (min-width:390px){
+    body{
+        margin: 0%;
+    }
+    nav{
+        margin: 0%;
+        justify-content: left;
+    }
+    .navbar{
+        margin: 0% 0.2%;
+        color: black;
+    }
+    #icon{
+        width: 30px;
+        height: 30px;
+    }
+    #buttons5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button3{
+        font-size: 20%;
+    }
+    #part1pt1{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20%;
+    }
+    #part1pt2{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20%;
+        margin-left: 0%;
+    }
+    img{
+        width: 70px;
+        height: 80px;
+    }
+    #copyright{
+        margin-left: 2%;
+    }
+    #lastimg{
+        width: 300px;
+        height: 100px;
+        margin-left: 1%;
+    }
+    #lastpage{
+        display: block;
+        flex-wrap: wrap;
+        font-size: 20%;
+    }
+    .about{
+        margin-left: 2%;
+        display: block;
+    }
+
+}
     
